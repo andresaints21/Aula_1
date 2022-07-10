@@ -8,3 +8,7 @@ CREATE TABLE pessoas (
 INSERT INTO pessoas (nome,nascimento) VALUE ('André', '1979 11 21')
 INSERT INTO pessoas (nome,nascimento) VALUE ('Luis', '2000 09 10')
 INSERT INTO pessoas (nome,nascimento) VALUE ('Lima', '1995 05 29')
+
+UPDATE pessoa SET nome = 'André' WHERE id= 2
+
+SELECT nome FROM pessoa
