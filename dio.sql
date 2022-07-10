@@ -12,3 +12,12 @@ INSERT INTO pessoas (nome,nascimento) VALUE ('Lima', '1995 05 29')
 UPDATE pessoa SET nome = 'André' WHERE id= 2
 
 SELECT nome FROM pessoa
+
+SELECT*FROM pessoa WHERE id=2
+DELETE FROM pessoa WHERE id=2
+
+
+SELECT*FROM pessoa ORDER BY nome 
+SELECT*FROM pessoa ORDER BY nome DESC
+
+SELECT COUNT(id), genero FROM pessoa GROUP BY genero;
